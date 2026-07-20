@@ -20,6 +20,15 @@
 | [upgrade-audit](https://github.com/ruodou233/upgrade-audit) | 升级审计：让 Agent 定期把对话里的知识沉淀进文档体系 |
 | [claude-cache-keepalive](https://github.com/ruodou233/claude-cache-keepalive) | Claude 缓存保温：实测 TTL、按环境设计保温节拍，控制冷读成本 |
 | [connect-computers](https://github.com/ruodou233/connect-computers) | 多电脑互联：VPN+SSH+远控+远端 Agent 的分层配置方案 |
+| [audio-transcribe](https://github.com/ruodou233/audio-transcribe) | 音频转文字全流程：判断有没有现成稿→选路径→转写→LLM校对，三档质量可选 |
+| [community-buzz](https://github.com/ruodou233/community-buzz) | 社区口碑挖掘：只保留爱好者社区里评论区讨论度高的真实讨论，过滤软文 |
+
+### 机制参考仓（轻量发布：脱敏+LICENSE+简短披露，未做教程化包装，建议直接读源码理解）
+
+| Skill | 一句话介绍 |
+|---|---|
+| [turn-guard](https://github.com/ruodou233/turn-guard) | Claude Code 回合级流程守护 hook：L1确定性提醒 + 可选L2语义分类器（实验中） |
+| [polymarket-anomaly-watch](https://github.com/ruodou233/polymarket-anomaly-watch) | 每日扫描 Polymarket 异动 + GitHub 热榜 + App Store 中美榜单，生成情报报告 |
 
 ## 找到我
 
