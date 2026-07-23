@@ -22,6 +22,7 @@
 | [connect-computers](https://github.com/ruodou233/connect-computers) | 多电脑互联：VPN+SSH+远控+远端 Agent 的分层配置方案 |
 | [audio-transcribe](https://github.com/ruodou233/audio-transcribe) | 音频转文字全流程：判断有没有现成稿→选路径→转写→LLM校对，三档质量可选 |
 | [community-buzz](https://github.com/ruodou233/community-buzz) | 社区口碑挖掘：只保留爱好者社区里评论区讨论度高的真实讨论，过滤软文 |
+| [codex-reset-watch](https://github.com/ruodou233/codex-reset-watch) | Codex 额度哨兵：结合本机周额度与临时重置信号，保守判断现在该猛猛蹬还是收着蹬 |
 
 ### 机制参考仓（轻量发布：脱敏+LICENSE+简短披露，未做教程化包装，建议直接读源码理解）
 
