@@ -9,7 +9,6 @@
 <!-- 本表由维护脚本生成 -->
 | Skill | 一句话介绍 |
 |---|---|
-| [wisdom-roundtable](https://github.com/ruodou233/wisdom-roundtable) | 智慧圆桌：11 位思想家并行独立分析你的决策 |
 | [domain-explorer](https://github.com/ruodou233/domain-explorer) | 速通新领域：四线并行调研，产出交互式知识地图 |
 | [de-ai-taste](https://github.com/ruodou233/de-ai-taste) | 中文去 AI 味：逐条检测 AI 生成痕迹并给修改建议 |
 | [improve-product-plan](https://github.com/ruodou233/improve-product-plan) | 把模糊的产品想法梳理成可开发、可验收的 SPEC.md |
