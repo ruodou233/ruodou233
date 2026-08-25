@@ -14,7 +14,7 @@
 | [improve-product-plan](https://github.com/ruodou233/improve-product-plan) | 把模糊的产品想法梳理成可开发、可验收的 SPEC.md |
 | [free-token-eggs](https://github.com/ruodou233/free-token-eggs) | 免费 Token 领鸡蛋：筛选值得领的中国 AI 平台免费额度 |
 | [smart-buyer](https://github.com/ruodou233/smart-buyer) | 聪明买手：正反双轨设标 + 社区口碑核验，排出可追溯的性价比排序 |
-| [agent-orchestration](https://github.com/ruodou233/agent-orchestration) | 长任务治理：主代理指挥、子代理干活、状态落盘、断点续跑 |
+| [agent-orchestration](https://github.com/ruodou233/agent-orchestration) | 长任务治理：主代理指挥、子代理干活，进度写进任务交付物 |
 | [cross-review](https://github.com/ruodou233/cross-review) | 跨厂商双审：让另一家公司的最强模型独立审你的方案 |
 | [upgrade-audit](https://github.com/ruodou233/upgrade-audit) | 升级审计：让 Agent 定期把对话里的知识沉淀进文档体系 |
 | [claude-cache-keepalive](https://github.com/ruodou233/claude-cache-keepalive) | Claude 缓存保温：实测 TTL、按环境设计保温节拍，控制冷读成本 |
