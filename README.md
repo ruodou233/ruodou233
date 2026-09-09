@@ -17,12 +17,12 @@
 | Skill | 一句话介绍 |
 |---|---|
 | [domain-explorer](https://github.com/ruodou233/domain-explorer) | 速通新领域：入门、转行、选课题，先把来龙去脉和各路说法弄明白 |
-| [de-ai-taste](https://github.com/ruodou233/de-ai-taste) | 中文去 AI 味：文章、演讲稿、口播和产品文案，改完还像你自己写的 |
+| [de-ai-taste](https://github.com/ruodou233/de-ai-taste) | AI 写的中文一眼就能看出来？逐条找出 AI 味、给出具体修改建议，让文章、讲稿和文案读起来像你写的。 |
 | [improve-product-plan](https://github.com/ruodou233/improve-product-plan) | 想做成一个作品？把应用、工具、自动化和游戏想法打磨成能开工的方案 |
-| [free-token-eggs](https://github.com/ruodou233/free-token-eggs) | 免费 Token 领鸡蛋：做原型、试模型，先看看哪些 AI 额度值得领 |
-| [smart-buyer](https://github.com/ruodou233/smart-buyer) | 聪明买手：买东西、选软件、找服务、比技术方案，先研究明白再选 |
-| [agent-orchestration](https://github.com/ruodou233/agent-orchestration) | 长任务不用一直盯着：批量调研、读长文、做产物，让 Agent 分工接着干 |
-| [cross-review](https://github.com/ruodou233/cross-review) | AI 的活总差一点？三路独立审方案、找遗漏、减复杂度 |
+| [free-token-eggs](https://github.com/ruodou233/free-token-eggs) | 免费额度找半天、领一圈，模型还不好用？帮你挑值得领的免费 AI token——太蠢的大模型不收录，吃点好的。 |
+| [smart-buyer](https://github.com/ruodou233/smart-buyer) | AI 推荐了一堆，到底该选哪个还是没弄明白？聪明买手帮你把商品、软件、服务和技术方案研究明白再选。 |
+| [agent-orchestration](https://github.com/ruodou233/agent-orchestration) | 复杂任务跑到半夜，你不可能一直盯着。让 Agent 分工跑长任务和批量工作，你只管第二天早上收结果。 |
+| [cross-review](https://github.com/ruodou233/cross-review) | AI 的活总差一点，总要你擦屁股，总打丑补丁？让另一家 AI 挑刺复查，自己把活干完整，不用你一直兜底。 |
 | [upgrade-audit](https://github.com/ruodou233/upgrade-audit) | 把你教过 AI 的东西留下来：沉淀偏好、复盘踩坑、更新 skill 和工作流程 |
 | [claude-cache-keepalive](https://github.com/ruodou233/claude-cache-keepalive) | 缓存保温：实测命中、算清收益，让长会话少花冤枉 token |
 | [connect-computers](https://github.com/ruodou233/connect-computers) | 把电脑连起来：轻薄本调家中工作机，闲置电脑跑任务，出门也能接着干 |
@@ -40,8 +40,8 @@
 | Skill | 一句话介绍 |
 |---|---|
 | [growth-radar](https://github.com/ruodou233/growth-radar) | 想学爆款先看清涨粉从哪来：筛案例、找作品、拆内容 |
-| [polymarket-anomaly-watch](https://github.com/ruodou233/polymarket-anomaly-watch) | 每天醒来看看有什么新动静：市场异动、开源热榜和应用榜单替你盯着 |
-| [claude-code-feishu](https://github.com/ruodou233/claude-code-feishu) | 飞书遥控 Agent：电脑上干到一半的活，出门拿手机接着指挥 |
+| [polymarket-anomaly-watch](https://github.com/ruodou233/polymarket-anomaly-watch) | 每天醒来就有一份科技情报——市场异动、GitHub 热榜、App Store 榜单，AI 替你盯着。 |
+| [claude-code-feishu](https://github.com/ruodou233/claude-code-feishu) | 出门前电脑上开的活，到手机上就接不上了？用飞书接着指挥同一个 Claude Code 会话，回来接着干。 |
 | [multi-upstream-agent-routing](https://github.com/ruodou233/multi-upstream-agent-routing) | 给 Agent 挑线路：核能力、算实付、配主备，把上游选择理清楚 |
 | [turn-guard](https://github.com/ruodou233/turn-guard) | Claude Code 老忘流程？把该做的检查变成每回合提醒 |
 
