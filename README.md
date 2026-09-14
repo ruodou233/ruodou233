@@ -17,6 +17,10 @@ Open-source skills and workflows to help AI agents review their work, manage cos
 - **把研究推进到可实施的方案**：让聪明买手比较候选、成本和取舍，再用产品方案 Skill 明确首版范围、实现阶段与验收标准，形成可交给开发 Agent 的说明。
 - **把资料和想法做成作品**：转写会议、访谈与播客，审阅中文里的套路表达；制作网页、演讲和作品集，让视觉、动效与声音共同服务内容。
 
+## 最新研究
+
+一个月 Codex 会话、392 个日志文件拆开算：长会话里一半以上 token 花在改，不是花在做；最贵的一条线程返工是首次交付的 52 倍。委派没救回来——多花的 10% 是父会话在轮询等工人。[一手数据与改掉的规则](https://github.com/ruodou233/agent-orchestration/blob/main/research/2026-09-delegation-study.md)
+
 ## 开源 Skill 目录
 
 以下各表按 GitHub Star 数降序排列，同星保留原顺序。排序核验：2026-09-13；徽章显示最新星标数。
