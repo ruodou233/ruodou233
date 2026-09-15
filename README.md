@@ -8,6 +8,10 @@ Open-source skills and workflows to help AI agents review their work, manage cos
 
 这些 skill 遵循同一条分发原则：当多个 Agent 需要接入同一权威源时，采用单源维护——核心逻辑只改一处，减少同一规则在多处各自演化、重复漂移的风险；设计原则和两种实现结构（整包共享 / 共享规范+平台适配层）见 [agent-orchestration](https://github.com/ruodou233/agent-orchestration) 的"Skill 结构原则"一节。
 
+## 安全网设计
+
+AI 改文件可能改砸，没有版本快照就难以恢复。我的做法是让 Agent 在修改任何文件前后都走 Git，重要文档额外同步云端，确保每次改动都能 diff 和回滚。具体执行规则见 [agent-orchestration](https://github.com/ruodou233/agent-orchestration) 的「改动安全网」一节。
+
 ## 可以拿来干什么
 
 - **提高交付质量，减少人工返工**：用 cross-review 让另一家 AI 独立审查代码与方案，检查正确性、复杂度和替代思路；用 upgrade-audit 把对话中的偏好、踩坑经验沉淀进记忆与 Skill，减少重复纠正。
