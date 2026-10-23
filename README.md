@@ -20,6 +20,7 @@ AI 改文件可能改砸，没有版本快照就难以恢复。我的做法是�
 - **扩展 Agent 获取信息和操作网页的能力**：用 web-access 处理检索、动态网页与需要登录态的页面；结合领域探索和社区口碑，为分析与决策补充可追溯的资料和真实使用反馈。
 - **把研究推进到可实施的方案**：让聪明买手比较候选、成本和取舍，再用产品方案 Skill 明确首版范围、实现阶段与验收标准，形成可交给开发 Agent 的说明。
 - **把资料和想法做成作品**：转写会议、访谈与播客，审阅中文里的套路表达；制作网页、演讲和作品集，让视觉、动效与声音共同服务内容。
+- **在 Mac 上把游戏玩起来**：用 mac-game-library-advisor 先把 Steam 库过一遍，分清哪些原生能跑、哪些靠 Whisky 和 GPTK 跑得动、哪些被反作弊挡住，再决定值不值得折腾。
 
 ## 最新研究
 
@@ -48,6 +49,7 @@ AI 改文件可能改砸，没有版本快照就难以恢复。我的做法是�
 | [connect-computers](https://github.com/ruodou233/connect-computers) | ![GitHub Stars](https://img.shields.io/github/stars/ruodou233/connect-computers?style=flat) | 把电脑连起来：轻薄本调家中工作机，闲置电脑跑任务，出门也能接着干<br>Set up SSH, VPN, remote desktop access, and remote AI agents across your computers for work at home and on the go. |
 | [codex-reset-watch](https://github.com/ruodou233/codex-reset-watch) | ![GitHub Stars](https://img.shields.io/github/stars/ruodou233/codex-reset-watch?style=flat) | Codex 额度哨兵：看看还能蹬多久，重任务该现在上还是缓一缓<br>Track Codex usage limits, spending pace, and reset signals to plan your next tasks. |
 | [web-access](https://github.com/ruodou233/web-access) | ![GitHub Stars](https://img.shields.io/github/stars/ruodou233/web-access?style=flat) | 给 AI 装上联网能力：查资料、读动态网页、用登录态，把网页上的事办完<br>An agent skill for web research and browser automation, including logged-in pages, dynamic content, and browser history search. |
+| [mac-game-library-advisor](https://github.com/ruodou233/mac-game-library-advisor) | ![GitHub Stars](https://img.shields.io/github/stars/ruodou233/mac-game-library-advisor?style=flat) | Mac 想玩 Windows 游戏，先别急着装兼容层：把 Steam 库过一遍，哪些原生能跑、哪些 Whisky/GPTK 跑得动、哪些卡在反作弊，一次说清。<br>Sort a Steam library into what runs natively on a Mac, what works under Whisky/GPTK, and what anti-cheat blocks — then get similar-game picks. |
 
 ### 机制参考仓
 
