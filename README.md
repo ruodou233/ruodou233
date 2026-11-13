@@ -50,6 +50,7 @@ AI 改文件可能改砸，没有版本快照就难以恢复。我的做法是�
 | [codex-reset-watch](https://github.com/ruodou233/codex-reset-watch) | ![GitHub Stars](https://img.shields.io/github/stars/ruodou233/codex-reset-watch?style=flat) | Codex 额度哨兵：看看还能蹬多久，重任务该现在上还是缓一缓<br>Track Codex usage limits, spending pace, and reset signals to plan your next tasks. |
 | [web-access](https://github.com/ruodou233/web-access) | ![GitHub Stars](https://img.shields.io/github/stars/ruodou233/web-access?style=flat) | 给 AI 装上联网能力：查资料、读动态网页、用登录态，把网页上的事办完<br>An agent skill for web research and browser automation, including logged-in pages, dynamic content, and browser history search. |
 | [mac-game-library-advisor](https://github.com/ruodou233/mac-game-library-advisor) | ![GitHub Stars](https://img.shields.io/github/stars/ruodou233/mac-game-library-advisor?style=flat) | Mac 想玩 Windows 游戏，先别急着装兼容层：把 Steam 库过一遍，哪些原生能跑、哪些 Whisky/GPTK 跑得动、哪些卡在反作弊，一次说清。<br>Sort a Steam library into what runs natively on a Mac, what works under Whisky/GPTK, and what anti-cheat blocks — then get similar-game picks. |
+| [zhangfen-daily](https://github.com/ruodou233/zhangfen-daily) | ![GitHub Stars](https://img.shields.io/github/stars/ruodou233/zhangfen-daily?style=flat) | 每天谁在涨粉、靠哪条作品、观众在评论什么？七个平台的涨粉榜一份日报看完，作品数据、文案和热评都取齐<br>A daily creator-growth digest across Bilibili, Douyin, Xiaohongshu, Kuaishou, WeChat Channels, YouTube and X, with works, metrics, transcripts and top comments. |
 
 ### 机制参考仓
 
@@ -58,7 +59,6 @@ AI 改文件可能改砸，没有版本快照就难以恢复。我的做法是�
 | Skill | Stars | 一句话介绍 |
 |---|---|---|
 | [claude-code-feishu](https://github.com/ruodou233/claude-code-feishu) | ![GitHub Stars](https://img.shields.io/github/stars/ruodou233/claude-code-feishu?style=flat) | 出门前电脑上开的活，到手机上就接不上了？用飞书接着指挥同一个 Claude Code 会话，回来接着干。<br>Continue the same desktop Claude Code session from your phone through Feishu / Lark. |
-| [growth-radar](https://github.com/ruodou233/growth-radar) | ![GitHub Stars](https://img.shields.io/github/stars/ruodou233/growth-radar?style=flat) | 想学爆款先看清涨粉从哪来：筛案例、找作品、拆内容<br>Research social media follower growth through creator rankings, published content, and public comments. |
 | [polymarket-anomaly-watch](https://github.com/ruodou233/polymarket-anomaly-watch) | ![GitHub Stars](https://img.shields.io/github/stars/ruodou233/polymarket-anomaly-watch?style=flat) | 每天醒来就有一份科技情报——市场异动、GitHub 热榜、App Store 榜单，AI 替你盯着。<br>Monitor Polymarket anomalies, GitHub trends, and App Store rankings for a daily tech briefing. |
 | [multi-upstream-agent-routing](https://github.com/ruodou233/multi-upstream-agent-routing) | ![GitHub Stars](https://img.shields.io/github/stars/ruodou233/multi-upstream-agent-routing?style=flat) | 给 Agent 挑线路：核能力、算实付、配主备，把上游选择理清楚<br>A design guide for multi-provider LLM routing, fallback policies, capability checks, and cost accounting. |
 | [turn-guard](https://github.com/ruodou233/turn-guard) | ![GitHub Stars](https://img.shields.io/github/stars/ruodou233/turn-guard?style=flat) | Claude Code 老忘流程？把该做的检查变成每回合提醒<br>Claude Code hooks for background task follow-ups and reminders to review plans and completed changes. |
