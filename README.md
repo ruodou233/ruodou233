@@ -26,7 +26,7 @@ AI 改文件可能改砸，没有版本快照就难以恢复。我的做法是�
 
 主代理定口径和验收、子代理读原文只回结论，这套分工我从 2026 年 5 月的第一版过夜任务 skill 就开始做，7 月随首批 skill 开源（[agent-orchestration 首发版](https://github.com/ruodou233/agent-orchestration/blob/6933c37/SKILL.md)、[upgrade-audit 首发版](https://github.com/ruodou233/upgrade-audit/blob/5432694/SKILL.md)），和 Anthropic、Google、DeepSeek 后来公开的思路不谋而合。2026-11 对照他们的方案和本机 30 天数据又做了一轮取舍，删掉了大半规则：[时间线与对照](https://github.com/ruodou233/agent-orchestration/blob/main/research/2026-11-context-delegation.md)
 
-一手数据：一个月 Codex 会话、392 个日志文件拆开算，返工是首次交付的 6～52 倍。保护主代理上下文干净、全局思路清晰，不光效果和体验更好，也省下大量返工；比起子代理花掉的 token，主会话里反复返工的消耗才最严重。[完整研究](https://github.com/ruodou233/agent-orchestration/blob/main/research/2026-09-delegation-study.md)
+一手数据：一个月 Codex 会话、392 个日志文件拆开算，返工是首次交付的 6～52 倍。保护主代理上下文干净、全局思路清晰，不光效果和体验更好，也省下大量返工；数据证明，比起子代理的 token 消耗，主代理上下文污染、反复返工消耗的 token 才最严重。[完整研究](https://github.com/ruodou233/agent-orchestration/blob/main/research/2026-09-delegation-study.md)
 
 ## 开源 Skill 目录
 
