@@ -10,7 +10,7 @@ Open-source skills and workflows to help AI agents review their work, manage cos
 
 ## 安全网设计
 
-AI 改文件可能改砸，没有版本快照就难以恢复。我的做法是让 Agent 在修改任何文件前后都走 Git，重要文档额外同步云端，确保每次改动都能 diff 和回滚。具体执行规则见 [agent-orchestration](https://github.com/ruodou233/agent-orchestration) 的「改动安全网」一节。
+AI 改文件可能改砸，没有版本快照就难以恢复。我的做法是让 Agent 在修改任何文件前后都走 Git，重要文档额外同步云端，确保每次改动都能 diff 和回滚。
 
 ## 可以拿来干什么
 
@@ -20,11 +20,13 @@ AI 改文件可能改砸，没有版本快照就难以恢复。我的做法是�
 - **扩展 Agent 获取信息和操作网页的能力**：用 web-access 处理检索、动态网页与需要登录态的页面；结合领域探索和社区口碑，为分析与决策补充可追溯的资料和真实使用反馈。
 - **把研究推进到可实施的方案**：让聪明买手比较候选、成本和取舍，再用产品方案 Skill 明确首版范围、实现阶段与验收标准，形成可交给开发 Agent 的说明。
 - **把资料和想法做成作品**：转写会议、访谈与播客，审阅中文里的套路表达；制作网页、演讲和作品集，让视觉、动效与声音共同服务内容。
-- **在 Mac 上把游戏玩起来**：用 mac-game-library-advisor 先把 Steam 库过一遍，分清哪些原生能跑、哪些靠 Whisky 和 GPTK 跑得动、哪些被反作弊挡住，再决定值不值得折腾。
+- **在 Mac 上把游戏玩起来**：用 mac-game-library-advisor 先把 Steam 库过一遍，分清哪些原生能跑、哪些靠兼容层跑得动、哪些被反作弊挡住，再决定值不值得折腾。
 
-## 最新研究
+## 研究与时间线
 
-一个月 Codex 会话、392 个日志文件拆开算：长会话里一半以上 token 花在改，不是花在做；最贵的一条线程返工是首次交付的 52 倍。委派没救回来——多花的 10% 是父会话在轮询等工人。[一手数据与改掉的规则](https://github.com/ruodou233/agent-orchestration/blob/main/research/2026-09-delegation-study.md)
+主代理定口径和验收、子代理读原文只回结论，这套分工我从 2026 年 5 月的第一版过夜任务 skill 就开始做，7 月随首批 skill 开源（[agent-orchestration 首发版](https://github.com/ruodou233/agent-orchestration/blob/6933c37/SKILL.md)、[upgrade-audit 首发版](https://github.com/ruodou233/upgrade-audit/blob/5432694/SKILL.md)），和 Anthropic、Google、DeepSeek 后来公开的思路不谋而合。2026-11 对照他们的方案和本机 30 天数据又做了一轮取舍，删掉了大半规则：[时间线与对照](https://github.com/ruodou233/agent-orchestration/blob/main/research/2026-11-context-delegation.md)
+
+一手数据：一个月 Codex 会话、392 个日志文件拆开算，返工是首次交付的 6～52 倍。保护主代理上下文干净、全局思路清晰，不光效果和体验更好，也省下大量返工；比起子代理花掉的 token，主会话里反复返工的消耗才最严重。[完整研究](https://github.com/ruodou233/agent-orchestration/blob/main/research/2026-09-delegation-study.md)
 
 ## 开源 Skill 目录
 
